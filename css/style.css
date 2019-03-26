@@ -1,0 +1,42 @@
+main {
+	width: 800px;
+	margin: auto;
+	margin-top: 10%;
+}
+#slideshow {
+	width: 800px;
+	height: 400px;
+	background-color: #EEE;
+	overflow: hidden;
+}
+
+.slideshowarea {
+	width: 100000px;
+	height: 400px;
+	position: relative;
+	background-color: #999;
+	transition: .8s ease;
+}
+
+.slide {
+	width: 800px;
+	height: 400px;
+	background-size: cover;
+	position: relative;
+	float: left;
+}
+
+.balls {
+	width: 800px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+}
+.ball {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: #666;
+	margin: 10px;
+	cursor: pointer;
+}
